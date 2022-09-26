@@ -9,6 +9,7 @@
             Console.WriteLine("1. UC1 - Validate First Name");
             Console.WriteLine("2. UC2 - Validate Last Name");
             Console.WriteLine("3. UC3 - Validate Email Address");
+            Console.WriteLine("4. UC4 - Validate Mobile Number");
 
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -25,6 +26,9 @@
                     break;
                 case 3:
                     ValidateEmail1.ValidateEmail();
+                    break;
+                case 4:
+                    ValidateMobileNumber1.ValidateMobileNumber();
                     break;
             }
         }
