@@ -12,6 +12,7 @@
             Console.WriteLine("4. UC4 - Validate Mobile Number");
             Console.WriteLine("5. UC5 - Validate password Rule1 - Password should have minimum 8 characters");
             Console.WriteLine("6. UC6-Valid Password Rule 2");
+            Console.WriteLine("7. UC7-Valid Password Rule 3");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -36,6 +37,9 @@
                     break;
                 case 6:
                     PassWordRule2.ValidatePassword();
+                    break;
+                case 7:
+                    PassWordRule3.ValidatePassword();
                     break;
             }
         }
